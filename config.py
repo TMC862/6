@@ -10,7 +10,7 @@ API_HASH = os.environ.get("API_HASH","0098baaaa11b512a0a8b8eaf33a4d91a")
 # ------------------------------------------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 # ------------------------------------------------
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "<a href="https://t.me/rosyetractorbot">Rosy Extractor")
+BOT_USERNAME = os.environ.get("BOT_USERNAME = os.environ.get("BOT_USERNAME", '<a href="https://t.me/rosyetractorbot">Rosy Extractor</a>')
 BOT_TEXT = "🦅Golden Eagle🦅"
 # ------------------------------------------------
 OWNER_ID = int(os.environ.get("OWNER_ID", "1118716436"))
