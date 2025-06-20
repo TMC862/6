@@ -28,7 +28,7 @@ s = cloudscraper.create_scraper()
 async def classplus_txt(app, message):
     # Step 1: Ask for details
     details = await app.ask(message.chat.id, 
-        "🔹 <b>UG EXTRACTOR PRO</b> 🔹\n\n"
+        "🔹 <b>🦅Golden Eagle🦅</b> 🔹\n\n"
         "Send **ID & Password** in this format:\n"
         "<code>ORG_CODE*Mobile</code>\n\n"
         "Example:\n"
