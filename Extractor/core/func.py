@@ -46,7 +46,7 @@ async def subscribe(app, message):
                 # If we can't get invite link, just show a simple message
                 await message.reply_text(
                     "Please join our updates channel to use the bot.",
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🤖", url="https://t.me/sujaloop")]])
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🤖", url="https://t.me/jgckco")]])
                 )
             return 1
         except Exception as e:
