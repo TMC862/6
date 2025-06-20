@@ -387,7 +387,7 @@ def photo():
         return config.thumb_url
     """
 
-@app.on_message(filters.command("start"))  # & filters.user(SUDO_USERS))
+@app.on_message(filters.command("start")) & filters.user(SUDO_USERS))
 async def start(_, message):
     join = await subscribe(_, message)
     if join == 1:
